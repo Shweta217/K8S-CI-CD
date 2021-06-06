@@ -16,8 +16,8 @@ public class Count3Application {
 	}
 	
 	@GetMapping("/hello")
-	public String hello(@RequestParam(value = "name", defaultValue = "..****KUDOS to me****") String name) {
-	return String.format("I did it %s!", name);
+	public String hello(@RequestParam(value = "name", defaultValue = "..****YET ANOTHER DEPLOYMENT AND SERVICE****") String name) {
+	return String.format("yep.. %s!", name);
 	}
 
 }
