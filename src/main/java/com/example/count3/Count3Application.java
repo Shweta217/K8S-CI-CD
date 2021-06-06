@@ -15,7 +15,7 @@ public class Count3Application {
 		SpringApplication.run(Count3Application.class, args);
 	}
 	
-	@GetMapping("/hello")
+	@GetMapping("/yetAnother")
 	public String hello(@RequestParam(value = "name", defaultValue = "..****YET ANOTHER DEPLOYMENT AND SERVICE****") String name) {
 	return String.format("yep.. %s!", name);
 	}
